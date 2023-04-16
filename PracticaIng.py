@@ -10,6 +10,6 @@ for row in cursor:
    print(row[0], end="\t")
    print(row[1], end="\t")
    print(row[2])
-print("\n\n\n\n")
+print("\n\n")
 # Cierre de la conexión
 conn.close()
