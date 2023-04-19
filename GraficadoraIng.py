@@ -11,7 +11,7 @@ funciones = Label(ws, text="Funciones:\n\n1.Seno\n\n2.Coseno\n\n3.Tangente\n\n4.
 funciones.pack(pady=20)
 
 funcion = int(simpledialog.askstring("Elige", "Elige una función: ",
-                                parent=ws))
+                                    parent=ws))
 
 ws.destroy()
 ws.mainloop()
